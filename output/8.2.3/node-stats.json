@@ -1,0 +1,133 @@
+{
+  "ephemeral_id": "f67ad58e-0182-4cbd-85c9-19c218abc7cb",
+  "events": {},
+  "host": "11d1f4d4553a",
+  "http_address": "0.0.0.0:9600",
+  "id": "2e1cf8be-1f8c-4bcb-9046-72dd16cd330c",
+  "jvm": {
+    "gc": {
+      "collectors": {
+        "old": {
+          "collection_count": 3,
+          "collection_time_in_millis": 1314
+        },
+        "young": {
+          "collection_count": 6,
+          "collection_time_in_millis": 3515
+        }
+      }
+    },
+    "mem": {
+      "heap_committed_in_bytes": 1037959168,
+      "heap_max_in_bytes": 1037959168,
+      "heap_used_in_bytes": 357695304,
+      "heap_used_percent": 34,
+      "non_heap_committed_in_bytes": 170856448,
+      "non_heap_used_in_bytes": 147662080,
+      "pools": {
+        "old": {
+          "committed_in_bytes": 715849728,
+          "max_in_bytes": 715849728,
+          "peak_max_in_bytes": 715849728,
+          "peak_used_in_bytes": 103373368,
+          "used_in_bytes": 103373368
+        },
+        "survivor": {
+          "committed_in_bytes": 35782656,
+          "max_in_bytes": 35782656,
+          "peak_max_in_bytes": 35782656,
+          "peak_used_in_bytes": 35782656,
+          "used_in_bytes": 31723384
+        },
+        "young": {
+          "committed_in_bytes": 286326784,
+          "max_in_bytes": 286326784,
+          "peak_max_in_bytes": 286326784,
+          "peak_used_in_bytes": 286326784,
+          "used_in_bytes": 222598552
+        }
+      }
+    },
+    "threads": {
+      "count": 20,
+      "peak_count": 20
+    },
+    "uptime_in_millis": 177351
+  },
+  "name": "11d1f4d4553a",
+  "os": {},
+  "pipeline": {
+    "batch_delay": 50,
+    "batch_size": 125,
+    "workers": 16
+  },
+  "pipelines": {
+    "main": {
+      "events": null,
+      "plugins": {
+        "codecs": [
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 0,
+              "writes_in": 0
+            },
+            "id": "plain_63355ac0-72f9-4a9a-a568-5e5df89b0a6c",
+            "name": "plain"
+          }
+        ],
+        "filters": [],
+        "inputs": [
+          {
+            "id": "0710cad67e8f47667bc7612580d5b91f691dd8262a4187d9eca8cf87229d04aa",
+            "name": "beats"
+          }
+        ],
+        "outputs": [
+          {
+            "events": {
+              "duration_in_millis": 0,
+              "in": 0,
+              "out": 0
+            },
+            "id": "f4944472678ac54e7343c1a49748c402b0bafd76ebab7fe2f3930269e0e5097b",
+            "name": "stdout"
+          }
+        ]
+      },
+      "queue": null,
+      "reloads": null
+    }
+  },
+  "process": {
+    "cpu": {
+      "load_average": {
+        "15m": 29.83,
+        "1m": 55.95,
+        "5m": 54.14
+      },
+      "percent": 5,
+      "total_in_millis": 187590
+    },
+    "max_file_descriptors": 1048576,
+    "mem": {
+      "total_virtual_in_bytes": 5837529088
+    },
+    "open_file_descriptors": 82,
+    "peak_open_file_descriptors": 82
+  },
+  "queue": {
+    "events_count": 0
+  },
+  "reloads": {
+    "failures": 0,
+    "successes": 0
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "8.2.3"
+}

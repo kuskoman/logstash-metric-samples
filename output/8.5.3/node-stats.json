@@ -1,0 +1,175 @@
+{
+  "ephemeral_id": "d208b5a1-23c2-451b-b7c8-4da4d29fcf39",
+  "events": {
+    "duration_in_millis": 0,
+    "filtered": 0,
+    "in": 0,
+    "out": 0,
+    "queue_push_duration_in_millis": 0
+  },
+  "flow": {
+    "filter_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "input_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "output_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "queue_backpressure": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "worker_concurrency": {
+      "current": 0,
+      "lifetime": 0
+    }
+  },
+  "host": "d9d20ddea94a",
+  "http_address": "0.0.0.0:9600",
+  "id": "4f3cd215-189a-4588-b0ae-33416f1ee45d",
+  "jvm": {
+    "gc": {
+      "collectors": {
+        "old": {
+          "collection_count": 0,
+          "collection_time_in_millis": 0
+        },
+        "young": {
+          "collection_count": 13,
+          "collection_time_in_millis": 2044
+        }
+      }
+    },
+    "mem": {
+      "heap_committed_in_bytes": 1073741824,
+      "heap_max_in_bytes": 1073741822,
+      "heap_used_in_bytes": 384794624,
+      "heap_used_percent": 35,
+      "non_heap_committed_in_bytes": 152961024,
+      "non_heap_used_in_bytes": 137412360,
+      "pools": {
+        "old": {
+          "committed_in_bytes": 781189120,
+          "max_in_bytes": 1073741824,
+          "peak_max_in_bytes": 1073741824,
+          "peak_used_in_bytes": 133136384,
+          "used_in_bytes": 133136384
+        },
+        "survivor": {
+          "committed_in_bytes": 3145728,
+          "max_in_bytes": -1,
+          "peak_max_in_bytes": -1,
+          "peak_used_in_bytes": 34603008,
+          "used_in_bytes": 3145728
+        },
+        "young": {
+          "committed_in_bytes": 289406976,
+          "max_in_bytes": -1,
+          "peak_max_in_bytes": -1,
+          "peak_used_in_bytes": 270532608,
+          "used_in_bytes": 248512512
+        }
+      }
+    },
+    "threads": {
+      "count": 21,
+      "peak_count": 21
+    },
+    "uptime_in_millis": 125806
+  },
+  "name": "d9d20ddea94a",
+  "os": {},
+  "pipeline": {
+    "batch_delay": 50,
+    "batch_size": 125,
+    "workers": 16
+  },
+  "pipelines": {
+    "main": {
+      "events": null,
+      "flow": null,
+      "plugins": {
+        "codecs": [
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 0,
+              "writes_in": 0
+            },
+            "id": "rubydebug_a007302b-6686-4959-802d-8d6b12284611",
+            "name": "rubydebug"
+          },
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 0,
+              "writes_in": 0
+            },
+            "id": "plain_c42c3ac9-2ece-4593-a9f8-243df12f8410",
+            "name": "plain"
+          }
+        ],
+        "filters": [],
+        "inputs": [
+          {
+            "id": "0710cad67e8f47667bc7612580d5b91f691dd8262a4187d9eca8cf87229d04aa",
+            "name": "beats"
+          }
+        ],
+        "outputs": [
+          {
+            "events": {
+              "duration_in_millis": 0,
+              "in": 0,
+              "out": 0
+            },
+            "id": "f4944472678ac54e7343c1a49748c402b0bafd76ebab7fe2f3930269e0e5097b",
+            "name": "stdout"
+          }
+        ]
+      },
+      "queue": null,
+      "reloads": null
+    }
+  },
+  "process": {
+    "cpu": {
+      "load_average": {
+        "15m": 32.08,
+        "1m": 42.82,
+        "5m": 50.03
+      },
+      "percent": 10,
+      "total_in_millis": 220090
+    },
+    "max_file_descriptors": 1048576,
+    "mem": {
+      "total_virtual_in_bytes": 6101671936
+    },
+    "open_file_descriptors": 85,
+    "peak_open_file_descriptors": 85
+  },
+  "queue": {
+    "events_count": 0
+  },
+  "reloads": {
+    "failures": 0,
+    "successes": 0
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "8.5.3"
+}

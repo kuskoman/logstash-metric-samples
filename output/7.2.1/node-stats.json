@@ -1,0 +1,162 @@
+{
+  "ephemeral_id": "d80c8906-5881-46f7-ab79-b00df42d05e5",
+  "events": {
+    "duration_in_millis": 0,
+    "filtered": 0,
+    "in": 0,
+    "out": 0,
+    "queue_push_duration_in_millis": 0
+  },
+  "host": "5bc606efc1d9",
+  "http_address": "0.0.0.0:9600",
+  "id": "5a257c12-f733-4926-a85a-de8f781e8e8f",
+  "jvm": {
+    "gc": {
+      "collectors": {
+        "old": {
+          "collection_count": 3,
+          "collection_time_in_millis": 2836
+        },
+        "young": {
+          "collection_count": 7,
+          "collection_time_in_millis": 4400
+        }
+      }
+    },
+    "mem": {
+      "heap_committed_in_bytes": 1037959168,
+      "heap_max_in_bytes": 1037959168,
+      "heap_used_in_bytes": 319224928,
+      "heap_used_percent": 30,
+      "non_heap_committed_in_bytes": 173449216,
+      "non_heap_used_in_bytes": 151995080,
+      "pools": {
+        "old": {
+          "committed_in_bytes": 715849728,
+          "max_in_bytes": 715849728,
+          "peak_max_in_bytes": 715849728,
+          "peak_used_in_bytes": 118376016,
+          "used_in_bytes": 118376016
+        },
+        "survivor": {
+          "committed_in_bytes": 35782656,
+          "max_in_bytes": 35782656,
+          "peak_max_in_bytes": 35782656,
+          "peak_used_in_bytes": 35782656,
+          "used_in_bytes": 23016288
+        },
+        "young": {
+          "committed_in_bytes": 286326784,
+          "max_in_bytes": 286326784,
+          "peak_max_in_bytes": 286326784,
+          "peak_used_in_bytes": 286326784,
+          "used_in_bytes": 177832624
+        }
+      }
+    },
+    "threads": {
+      "count": 39,
+      "peak_count": 39
+    },
+    "uptime_in_millis": 243434
+  },
+  "name": "5bc606efc1d9",
+  "os": {},
+  "pipelines": {
+    "main": {
+      "events": {
+        "duration_in_millis": 0,
+        "filtered": 0,
+        "in": 0,
+        "out": 0,
+        "queue_push_duration_in_millis": 0
+      },
+      "plugins": {
+        "codecs": [
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 0,
+              "writes_in": 0
+            },
+            "id": "plain_b2b28ddc-d35e-4af8-941f-42aed5be61f5",
+            "name": "plain"
+          },
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 404,
+              "writes_in": 0
+            },
+            "id": "rubydebug_fbfaafe3-5d27-40aa-ae22-ec8218a0ea1a",
+            "name": "rubydebug"
+          }
+        ],
+        "filters": [],
+        "inputs": [
+          {
+            "events": {
+              "out": 0,
+              "queue_push_duration_in_millis": 0
+            },
+            "id": "52687a79e86cea720a4b9d64e611b7d4c3b7893131d2da4b06f5f8903b464f4c",
+            "name": "beats"
+          }
+        ],
+        "outputs": [
+          {
+            "events": {
+              "duration_in_millis": 6854,
+              "in": 0,
+              "out": 0
+            },
+            "id": "f63963c4d9e18ffe255df09283327cb8c8ec2227ef06210795cb1d33b944a132",
+            "name": "stdout"
+          }
+        ]
+      },
+      "queue": {
+        "type": "memory"
+      },
+      "reloads": {
+        "failures": 0,
+        "last_error": null,
+        "last_failure_timestamp": null,
+        "last_success_timestamp": null,
+        "successes": 0
+      }
+    }
+  },
+  "process": {
+    "cpu": {
+      "load_average": {
+        "15m": 24.32,
+        "1m": 73.36,
+        "5m": 50.76
+      },
+      "percent": 5,
+      "total_in_millis": 223850
+    },
+    "max_file_descriptors": 1048576,
+    "mem": {
+      "total_virtual_in_bytes": 7369113600
+    },
+    "open_file_descriptors": 186,
+    "peak_open_file_descriptors": 187
+  },
+  "reloads": {
+    "failures": 0,
+    "successes": 0
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "7.2.1"
+}

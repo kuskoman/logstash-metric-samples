@@ -1,0 +1,47 @@
+{
+  "ephemeral_id": "d80c8906-5881-46f7-ab79-b00df42d05e5",
+  "host": "5bc606efc1d9",
+  "http_address": "0.0.0.0:9600",
+  "id": "5a257c12-f733-4926-a85a-de8f781e8e8f",
+  "jvm": {
+    "gc_collectors": [
+      "ParNew",
+      "ConcurrentMarkSweep"
+    ],
+    "mem": {
+      "heap_init_in_bytes": 1073741824,
+      "heap_max_in_bytes": 1037959168,
+      "non_heap_init_in_bytes": 7667712,
+      "non_heap_max_in_bytes": 0
+    },
+    "pid": 1,
+    "start_time_in_millis": 1681569461868,
+    "version": "11.0.3",
+    "vm_name": "OpenJDK 64-Bit Server VM",
+    "vm_vendor": "Oracle Corporation",
+    "vm_version": "11.0.3"
+  },
+  "name": "5bc606efc1d9",
+  "os": {
+    "arch": "amd64",
+    "available_processors": 16,
+    "name": "Linux",
+    "version": "5.15.90.1-microsoft-standard-WSL2"
+  },
+  "pipelines": {
+    "main": {
+      "batch_delay": 50,
+      "batch_size": 125,
+      "cluster_uuids": [],
+      "config_reload_automatic": false,
+      "config_reload_interval": 3000000000,
+      "dead_letter_queue_enabled": false,
+      "ephemeral_id": "1afd79f0-bca3-4f2a-8e3b-a1dc84302798",
+      "hash": "1e3da6bfb66bd25bbb98769a5dcdc16c06f98a333675d3b71cccad117e103b99",
+      "workers": 16
+    }
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "7.2.1"
+}

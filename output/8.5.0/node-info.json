@@ -1,0 +1,51 @@
+{
+  "ephemeral_id": "e3548d09-6560-4fa2-82d9-7a7f35362e72",
+  "host": "7a1af0acf6b3",
+  "http_address": "0.0.0.0:9600",
+  "id": "ad2bfbfe-5719-49c9-8cd4-07ed2087a588",
+  "jvm": {
+    "gc_collectors": [
+      "G1 Young Generation",
+      "G1 Old Generation"
+    ],
+    "mem": {
+      "heap_init_in_bytes": 1073741824,
+      "heap_max_in_bytes": 1073741824,
+      "non_heap_init_in_bytes": 7667712,
+      "non_heap_max_in_bytes": 0
+    },
+    "pid": 1,
+    "start_time_in_millis": 1681569908491,
+    "version": "17.0.4",
+    "vm_name": "OpenJDK 64-Bit Server VM",
+    "vm_vendor": "Eclipse Adoptium",
+    "vm_version": "17.0.4"
+  },
+  "name": "7a1af0acf6b3",
+  "os": {
+    "arch": "amd64",
+    "available_processors": 16,
+    "name": "Linux",
+    "version": "5.15.90.1-microsoft-standard-WSL2"
+  },
+  "pipeline": {
+    "batch_delay": 50,
+    "batch_size": 125,
+    "workers": 16
+  },
+  "pipelines": {
+    "main": {
+      "batch_delay": 50,
+      "batch_size": 125,
+      "config_reload_automatic": false,
+      "config_reload_interval": 3000000000,
+      "dead_letter_queue_enabled": false,
+      "ephemeral_id": "18b902e1-1fe2-4c3d-b0db-265d0b325b18",
+      "hash": "1e3da6bfb66bd25bbb98769a5dcdc16c06f98a333675d3b71cccad117e103b99",
+      "workers": 16
+    }
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "8.5.0"
+}

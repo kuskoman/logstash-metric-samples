@@ -1,0 +1,162 @@
+{
+  "ephemeral_id": "316f6a45-8fc8-4c7a-a776-afda4e83f0ba",
+  "events": {
+    "duration_in_millis": 0,
+    "filtered": 0,
+    "in": 0,
+    "out": 0,
+    "queue_push_duration_in_millis": 0
+  },
+  "host": "6d9c04591734",
+  "http_address": "0.0.0.0:9600",
+  "id": "03447a3f-8be5-4a5a-aa48-398e38dc5593",
+  "jvm": {
+    "gc": {
+      "collectors": {
+        "old": {
+          "collection_count": 3,
+          "collection_time_in_millis": 3386
+        },
+        "young": {
+          "collection_count": 7,
+          "collection_time_in_millis": 5016
+        }
+      }
+    },
+    "mem": {
+      "heap_committed_in_bytes": 1037959168,
+      "heap_max_in_bytes": 1037959168,
+      "heap_used_in_bytes": 358277464,
+      "heap_used_percent": 34,
+      "non_heap_committed_in_bytes": 174317568,
+      "non_heap_used_in_bytes": 152295312,
+      "pools": {
+        "old": {
+          "committed_in_bytes": 715849728,
+          "max_in_bytes": 715849728,
+          "peak_max_in_bytes": 715849728,
+          "peak_used_in_bytes": 104157104,
+          "used_in_bytes": 99532776
+        },
+        "survivor": {
+          "committed_in_bytes": 35782656,
+          "max_in_bytes": 35782656,
+          "peak_max_in_bytes": 35782656,
+          "peak_used_in_bytes": 35782656,
+          "used_in_bytes": 35403152
+        },
+        "young": {
+          "committed_in_bytes": 286326784,
+          "max_in_bytes": 286326784,
+          "peak_max_in_bytes": 286326784,
+          "peak_used_in_bytes": 286326784,
+          "used_in_bytes": 223341536
+        }
+      }
+    },
+    "threads": {
+      "count": 40,
+      "peak_count": 40
+    },
+    "uptime_in_millis": 247826
+  },
+  "name": "6d9c04591734",
+  "os": {},
+  "pipelines": {
+    "main": {
+      "events": {
+        "duration_in_millis": 0,
+        "filtered": 0,
+        "in": 0,
+        "out": 0,
+        "queue_push_duration_in_millis": 0
+      },
+      "plugins": {
+        "codecs": [
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 0,
+              "writes_in": 0
+            },
+            "id": "plain_96705480-a4e2-41f7-a884-9c73fb88bb02",
+            "name": "plain"
+          },
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 222,
+              "writes_in": 0
+            },
+            "id": "rubydebug_21b4b3bc-1952-4b83-91c8-420bee2d4a67",
+            "name": "rubydebug"
+          }
+        ],
+        "filters": [],
+        "inputs": [
+          {
+            "events": {
+              "out": 0,
+              "queue_push_duration_in_millis": 0
+            },
+            "id": "52687a79e86cea720a4b9d64e611b7d4c3b7893131d2da4b06f5f8903b464f4c",
+            "name": "beats"
+          }
+        ],
+        "outputs": [
+          {
+            "events": {
+              "duration_in_millis": 6514,
+              "in": 0,
+              "out": 0
+            },
+            "id": "f63963c4d9e18ffe255df09283327cb8c8ec2227ef06210795cb1d33b944a132",
+            "name": "stdout"
+          }
+        ]
+      },
+      "queue": {
+        "type": "memory"
+      },
+      "reloads": {
+        "failures": 0,
+        "last_error": null,
+        "last_failure_timestamp": null,
+        "last_success_timestamp": null,
+        "successes": 0
+      }
+    }
+  },
+  "process": {
+    "cpu": {
+      "load_average": {
+        "15m": 25.58,
+        "1m": 76.34,
+        "5m": 52.87
+      },
+      "percent": 8,
+      "total_in_millis": 243940
+    },
+    "max_file_descriptors": 1048576,
+    "mem": {
+      "total_virtual_in_bytes": 7709929472
+    },
+    "open_file_descriptors": 185,
+    "peak_open_file_descriptors": 185
+  },
+  "reloads": {
+    "failures": 0,
+    "successes": 0
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "7.2.0"
+}

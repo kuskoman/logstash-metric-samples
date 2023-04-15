@@ -1,0 +1,175 @@
+{
+  "ephemeral_id": "78a58dfb-b615-4ab8-a47c-b340019a2c24",
+  "events": {
+    "duration_in_millis": 0,
+    "filtered": 0,
+    "in": 0,
+    "out": 0,
+    "queue_push_duration_in_millis": 0
+  },
+  "host": "b097f5000de5",
+  "http_address": "0.0.0.0:9600",
+  "id": "288380d1-2b40-4a18-a2ec-8f247193bf7f",
+  "jvm": {
+    "gc": {
+      "collectors": {
+        "old": {
+          "collection_count": 3,
+          "collection_time_in_millis": 4994
+        },
+        "young": {
+          "collection_count": 7,
+          "collection_time_in_millis": 5235
+        }
+      }
+    },
+    "mem": {
+      "heap_committed_in_bytes": 1037959168,
+      "heap_max_in_bytes": 1037959168,
+      "heap_used_in_bytes": 235725248,
+      "heap_used_percent": 22,
+      "non_heap_committed_in_bytes": 176672768,
+      "non_heap_used_in_bytes": 150009840,
+      "pools": {
+        "old": {
+          "committed_in_bytes": 715849728,
+          "max_in_bytes": 715849728,
+          "peak_max_in_bytes": 715849728,
+          "peak_used_in_bytes": 112672032,
+          "used_in_bytes": 112672032
+        },
+        "survivor": {
+          "committed_in_bytes": 35782656,
+          "max_in_bytes": 35782656,
+          "peak_max_in_bytes": 35782656,
+          "peak_used_in_bytes": 35782656,
+          "used_in_bytes": 24381080
+        },
+        "young": {
+          "committed_in_bytes": 286326784,
+          "max_in_bytes": 286326784,
+          "peak_max_in_bytes": 286326784,
+          "peak_used_in_bytes": 286326784,
+          "used_in_bytes": 98672136
+        }
+      }
+    },
+    "threads": {
+      "count": 57,
+      "peak_count": 57
+    },
+    "uptime_in_millis": 257737
+  },
+  "name": "b097f5000de5",
+  "os": {},
+  "pipeline": {
+    "batch_delay": 50,
+    "batch_size": 125,
+    "workers": 16
+  },
+  "pipelines": {
+    "main": {
+      "ephemeral_id": "0e1fbfae-4f33-40a1-af36-6ac626f822cc",
+      "events": {
+        "duration_in_millis": 0,
+        "filtered": 0,
+        "in": 0,
+        "out": 0,
+        "queue_push_duration_in_millis": 0
+      },
+      "hash": "1e3da6bfb66bd25bbb98769a5dcdc16c06f98a333675d3b71cccad117e103b99",
+      "plugins": {
+        "codecs": [
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 0,
+              "writes_in": 0
+            },
+            "id": "plain_6cc6c14b-29b7-48fb-acf3-0469697dfc4a",
+            "name": "plain"
+          },
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 279,
+              "writes_in": 0
+            },
+            "id": "rubydebug_555c52ae-57a9-46ca-a486-a9edb696d6e1",
+            "name": "rubydebug"
+          }
+        ],
+        "filters": [],
+        "inputs": [
+          {
+            "events": {
+              "out": 0,
+              "queue_push_duration_in_millis": 0
+            },
+            "id": "0710cad67e8f47667bc7612580d5b91f691dd8262a4187d9eca8cf87229d04aa",
+            "name": "beats"
+          }
+        ],
+        "outputs": [
+          {
+            "events": {
+              "duration_in_millis": 443,
+              "in": 0,
+              "out": 0
+            },
+            "id": "f4944472678ac54e7343c1a49748c402b0bafd76ebab7fe2f3930269e0e5097b",
+            "name": "stdout"
+          }
+        ]
+      },
+      "queue": {
+        "events_count": 0,
+        "max_queue_size_in_bytes": 0,
+        "queue_size_in_bytes": 0,
+        "type": "memory"
+      },
+      "reloads": {
+        "failures": 0,
+        "last_error": null,
+        "last_failure_timestamp": null,
+        "last_success_timestamp": null,
+        "successes": 0
+      }
+    }
+  },
+  "process": {
+    "cpu": {
+      "load_average": {
+        "15m": 24.32,
+        "1m": 73.36,
+        "5m": 50.76
+      },
+      "percent": 4,
+      "total_in_millis": 246760
+    },
+    "max_file_descriptors": 1048576,
+    "mem": {
+      "total_virtual_in_bytes": 8489570304
+    },
+    "open_file_descriptors": 190,
+    "peak_open_file_descriptors": 190
+  },
+  "queue": {
+    "events_count": 0
+  },
+  "reloads": {
+    "failures": 0,
+    "successes": 0
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "7.8.1"
+}

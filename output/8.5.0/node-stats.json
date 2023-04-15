@@ -1,0 +1,189 @@
+{
+  "ephemeral_id": "e3548d09-6560-4fa2-82d9-7a7f35362e72",
+  "events": {
+    "duration_in_millis": 0,
+    "filtered": 0,
+    "in": 0,
+    "out": 0,
+    "queue_push_duration_in_millis": 0
+  },
+  "flow": {
+    "filter_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "input_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "output_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "queue_backpressure": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "worker_concurrency": {
+      "current": 0,
+      "lifetime": 0
+    }
+  },
+  "host": "7a1af0acf6b3",
+  "http_address": "0.0.0.0:9600",
+  "id": "ad2bfbfe-5719-49c9-8cd4-07ed2087a588",
+  "jvm": {
+    "gc": {
+      "collectors": {
+        "old": {
+          "collection_count": 0,
+          "collection_time_in_millis": 0
+        },
+        "young": {
+          "collection_count": 13,
+          "collection_time_in_millis": 1834
+        }
+      }
+    },
+    "mem": {
+      "heap_committed_in_bytes": 1073741824,
+      "heap_max_in_bytes": 1073741822,
+      "heap_used_in_bytes": 310248232,
+      "heap_used_percent": 28,
+      "non_heap_committed_in_bytes": 153550848,
+      "non_heap_used_in_bytes": 137432232,
+      "pools": {
+        "old": {
+          "committed_in_bytes": 794820608,
+          "max_in_bytes": 1073741824,
+          "peak_max_in_bytes": 1073741824,
+          "peak_used_in_bytes": 112164864,
+          "used_in_bytes": 112164864
+        },
+        "survivor": {
+          "committed_in_bytes": 27262976,
+          "max_in_bytes": -1,
+          "peak_max_in_bytes": -1,
+          "peak_used_in_bytes": 35399328,
+          "used_in_bytes": 27165480
+        },
+        "young": {
+          "committed_in_bytes": 251658240,
+          "max_in_bytes": -1,
+          "peak_max_in_bytes": -1,
+          "peak_used_in_bytes": 330301440,
+          "used_in_bytes": 170917888
+        }
+      }
+    },
+    "threads": {
+      "count": 22,
+      "peak_count": 22
+    },
+    "uptime_in_millis": 104134
+  },
+  "name": "7a1af0acf6b3",
+  "os": {},
+  "pipeline": {
+    "batch_delay": 50,
+    "batch_size": 125,
+    "workers": 16
+  },
+  "pipelines": {
+    "main": {
+      "events": {
+        "duration_in_millis": 0,
+        "filtered": 0,
+        "in": 0,
+        "out": 0,
+        "queue_push_duration_in_millis": 0
+      },
+      "flow": {
+        "filter_throughput": {},
+        "input_throughput": {},
+        "output_throughput": {},
+        "queue_backpressure": {},
+        "worker_concurrency": {}
+      },
+      "plugins": {
+        "codecs": [
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 0,
+              "writes_in": 0
+            },
+            "id": "plain_00415709-4fe3-40b9-9bfb-6da1ee6c701d",
+            "name": "plain"
+          },
+          {
+            "decode": {
+              "duration_in_millis": 0,
+              "out": 0,
+              "writes_in": 0
+            },
+            "encode": {
+              "duration_in_millis": 0,
+              "writes_in": 0
+            },
+            "id": "rubydebug_0be6a40f-8001-4601-9de9-6fe543a483ed",
+            "name": "rubydebug"
+          }
+        ],
+        "filters": [],
+        "inputs": [
+          {
+            "id": "0710cad67e8f47667bc7612580d5b91f691dd8262a4187d9eca8cf87229d04aa",
+            "name": "beats"
+          }
+        ],
+        "outputs": [
+          {
+            "events": {
+              "duration_in_millis": 0,
+              "in": 0,
+              "out": 0
+            },
+            "id": "f4944472678ac54e7343c1a49748c402b0bafd76ebab7fe2f3930269e0e5097b",
+            "name": "stdout"
+          }
+        ]
+      },
+      "queue": {
+        "type": "memory"
+      },
+      "reloads": null
+    }
+  },
+  "process": {
+    "cpu": {
+      "load_average": {
+        "15m": 32.19,
+        "1m": 35.45,
+        "5m": 46.34
+      },
+      "percent": 16,
+      "total_in_millis": 222010
+    },
+    "max_file_descriptors": 1048576,
+    "mem": {
+      "total_virtual_in_bytes": 6365749248
+    },
+    "open_file_descriptors": 85,
+    "peak_open_file_descriptors": 85
+  },
+  "queue": {
+    "events_count": 0
+  },
+  "reloads": {
+    "failures": 0,
+    "successes": 0
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "8.5.0"
+}

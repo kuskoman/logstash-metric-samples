@@ -1,0 +1,118 @@
+{
+  "ephemeral_id": "ea92b58c-95af-4bb0-a7a8-0d75f814d02d",
+  "events": {
+    "duration_in_millis": 0,
+    "filtered": 0,
+    "in": 0,
+    "out": 0,
+    "queue_push_duration_in_millis": 0
+  },
+  "flow": {
+    "filter_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "input_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "output_throughput": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "queue_backpressure": {
+      "current": 0,
+      "lifetime": 0
+    },
+    "worker_concurrency": {
+      "current": 0,
+      "lifetime": 0
+    }
+  },
+  "host": "3a0fc711286d",
+  "http_address": "0.0.0.0:9600",
+  "id": "39e50980-1b08-453a-88cf-6f1b90b55227",
+  "jvm": {
+    "gc": {
+      "collectors": {
+        "old": {
+          "collection_count": 0,
+          "collection_time_in_millis": 0
+        },
+        "young": {
+          "collection_count": 11,
+          "collection_time_in_millis": 1556
+        }
+      }
+    },
+    "mem": {
+      "heap_committed_in_bytes": 1073741824,
+      "heap_max_in_bytes": 1073741822,
+      "heap_used_in_bytes": 207682240,
+      "heap_used_percent": 19,
+      "non_heap_committed_in_bytes": 122224640,
+      "non_heap_used_in_bytes": 116091088,
+      "pools": {
+        "old": {
+          "committed_in_bytes": 901775360,
+          "max_in_bytes": 1073741824,
+          "peak_max_in_bytes": 1073741824,
+          "peak_used_in_bytes": 87601152,
+          "used_in_bytes": 87601152
+        },
+        "survivor": {
+          "committed_in_bytes": 7340032,
+          "max_in_bytes": -1,
+          "peak_max_in_bytes": -1,
+          "peak_used_in_bytes": 18624112,
+          "used_in_bytes": 6834880
+        },
+        "young": {
+          "committed_in_bytes": 164626432,
+          "max_in_bytes": -1,
+          "peak_max_in_bytes": -1,
+          "peak_used_in_bytes": 132120576,
+          "used_in_bytes": 113246208
+        }
+      }
+    },
+    "threads": {
+      "count": 21,
+      "peak_count": 21
+    },
+    "uptime_in_millis": 132457
+  },
+  "name": "3a0fc711286d",
+  "os": {},
+  "pipeline": {
+    "batch_delay": 50,
+    "batch_size": 125,
+    "workers": 16
+  },
+  "pipelines": {},
+  "process": {
+    "cpu": {
+      "load_average": {
+        "15m": 10.35,
+        "1m": 54.21,
+        "5m": 25.13
+      },
+      "percent": 3,
+      "total_in_millis": 147480
+    },
+    "max_file_descriptors": 1048576,
+    "mem": {
+      "total_virtual_in_bytes": 6084907008
+    },
+    "open_file_descriptors": 82,
+    "peak_open_file_descriptors": 82
+  },
+  "queue": {},
+  "reloads": {
+    "failures": 0,
+    "successes": 0
+  },
+  "snapshot": false,
+  "status": "green",
+  "version": "8.6.1"
+}
